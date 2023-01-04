@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>CashCapital</title>
+    <link rel="icon" href="assets/images/logo-icon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 577 Liberty Market
+
+https://templatemo.com/tm-577-liberty-market
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index-masuk.html">Beranda</a></li>
+                        <li><a href="explore-masuk.html">Jelajah</a></li>
+                        <li><a href="author.html">Profil</a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading normal-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h6>CashCapital</h6>
+          <h2>Membangun UMKM Indonesia Bersama</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="item-details-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2>MoU <em>Donasi</em></h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <!-- menuju ke arah mana -->
+          <form id="contact" action="riwayat-transaksi.html"> 
+            <div class="row">
+                  <label for="username">Nama UMKM</label>
+                  <input name="username" id="text1"onkeyup="preview();" placeholder="Masukkan Nama UMKM..." autocomplete="on" required>
+                  <label for="username">Nama Pemilik UMKM</label>
+                  <input name="username" id="text2"onkeyup="preview();" placeholder="Masukkan Nama Pemilik UMKM..." autocomplete="on" required>
+                  <label for="royalities">Nomor Telepon Pemilik UMKM</label>
+                  <input name="royalities" id="text3"onkeyup="preview();" placeholder="Masukkan Nomor Telepon Pemilik UMKM..." autocomplete="on" required>
+                  <label for="royalities">Jenis MoU</label>
+                  <select id="text8"onkeyup="preview();" name="kategori">
+                    <option value="Donasi">Donasi</option>
+                    <option value="Investasi">Investasi</option>
+                  </select>
+                  <label for="username">Nama Donatur/Investor</label>
+                  <input name="username" id="text4"onkeyup="preview();" placeholder="Masukkan Nama Donatur..." autocomplete="on" required>
+                  <label for="royalities">Nomor Telepon Donatur/Investor</label>
+                  <input name="royalities" id="text5"onkeyup="preview();" placeholder="Masukkan Nomor Telepon Donatur..." autocomplete="on" required>
+                  <label for="file">Unggah Tanda Tangan Pemilik UMKM dan Donatur/Investor</label>
+                  <input type="file" accept="image/*" id="gallery-photo-add" name="myfiles[]" multiple required/>
+                  <label for="username">Dana yang Disepakati</label>
+                  <input name="username" id="text6"onkeyup="preview();" placeholder="Masukkan Dana yang Disepakati..." autocomplete="on" required>
+                  <label for="username">Kesepakatan Lainnya</label>
+                  <textarea name="username" id="text7"onkeyup="preview();" placeholder="Masukkan Kesepakatan Lainnya..." autocomplete="on" required></textarea>
+                  <button id="form-submit" class="orange-button">Simpan</button>
+                  <p>Sebelum mengumpulkan, pastikan data-data yang berada di dalam MoU sudah benar</p>
+                  <button type="submit" id="form-submit" class="orange-button">Kumpulkan</button>
+                  <button type="submit" id="form-submit" class="orange-button">Unduh</button>
+            </div>
+            <p>Dengan menekan tombol Kumpulkan, MoU tidak dapat diubah kembali dan akan disimpan oleh CashCapital. Apabila salah satu pihak telah
+              melanggar perjanjian, pihak yang dirugikan dapat mengadukan pada <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWElwVD3mDAIg3h0bA7_Z4OxWqvZXZ1sBL3rYZsCoiiDy6_w/viewform" target="_blank">Form Aduan</a>
+            </p>
+          </form>
+        </div>
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2>Preview <em>MoU</em> Donasi</h2>
+          </div>
+          <div class="title">Memorandum of Understanding</div>
+          <div class="isi-mou">
+            <div class="sub-title"><br>Pihak Pertama</div>
+            <div class="sub">Nama UMKM                  :</div><div id="preview_div1"></div>
+            <div class="sub">Nama Pemilik UMKM          :</div><div id="preview_div2"></div>
+            <div class="sub">Nomor Telepon Pemilik UMKM :</div><div id="preview_div3"></div>
+            <div class="sub-title"><br>Pihak Kedua</div>
+            <div class="sub">Nama Donatur/Investor      :</div><div id="preview_div4"></div>
+            <div class="sub">Nomor Telepon Donatur/Investor :</div><div id="preview_div5"></div>
+            <div class="sub-title"><br>Donasi/Investasi</div>
+            <div class="sub">Dana yang Disepakati       :</div><div id="preview_div6"></div>
+            <div class="sub">Kesepakatan Lainnya        :</div><div id="preview_div7"></div>
+            <div class="sub-title"><br>Tanda Tangan Pemilik UMKM dan Donatur/Investor</div><div class="gallery"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2022 <a href="index.html">CashCapital</a> Kementerian Koperasi dan UKM Republik Indonesia
+          &nbsp;&nbsp;
+          Didesain Oleh <b>Kelompok 10</b></a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script type="text/javascript">
+    function preview()
+    {
+     $("#preview_div1").html($("#text1").val());
+     $("#preview_div2").html($("#text2").val());
+     $("#preview_div3").html($("#text3").val());
+     $("#preview_div4").html($("#text4").val());
+     $("#preview_div5").html($("#text5").val());
+     $("#preview_div6").html($("#text6").val());
+     $("#preview_div7").html($("#text7").val());
+     $("#preview_div8").html($("#text8").val());
+    }
+    </script>
+
+  <script>
+    $(function() {
+    // Multiple images preview in browser
+    var imagesPreview = function(input, placeToInsertImagePreview) {
+
+        if (input.files) {
+            var filesAmount = input.files.length;
+
+            for (i = 0; i < filesAmount; i++) {
+                var reader = new FileReader();
+
+                reader.onload = function(event) {
+                    $($.parseHTML('<img>')).attr('src', event.target.result).appendTo(placeToInsertImagePreview);
+                }
+
+                reader.readAsDataURL(input.files[i]);
+            }
+        }
+
+    };
+
+    $('#gallery-photo-add').on('change', function() {
+        imagesPreview(this, 'div.gallery');
+    });
+  });
+  </script>
+
+  </body>
+</html>
